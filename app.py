@@ -10,7 +10,8 @@ browser = webdriver.Firefox()
 
 # URL base da primeira página
 #base_url = 'https://www.vinted.pt/catalog?catalog[]=76&size_ids[]=207&brand_ids[]=88&brand_ids[]=94&brand_ids[]=304&brand_ids[]=10&brand_ids[]=11493&brand_ids[]=255&brand_ids[]=191&brand_ids[]=11421&brand_ids[]=20&brand_ids[]=120&brand_ids[]=161&price_to=5&currency=EUR&status_ids[]=6&status_ids[]=1&status_ids[]=2&order=newest_first&time=1718836305&page={}'
-base_url = 'https://www.vinted.pt/catalog?size_ids[]=207&brand_ids[]=11493&currency=EUR&status_ids[]=6&status_ids[]=1&status_ids[]=2&order=newest_first&price_to=3.5&catalog[]=1809&color_ids[]=30&page={}'
+#base_url = 'https://www.vinted.pt/catalog?size_ids[]=207&brand_ids[]=11493&currency=EUR&status_ids[]=6&status_ids[]=1&status_ids[]=2&order=newest_first&price_to=3.5&catalog[]=1809&color_ids[]=30&page={}'
+base_url ='https://www.vinted.pt/catalog?catalog[]=77&brand_ids[]=11493&status_ids[]=6&status_ids[]=1&status_ids[]=2&price_to=3&currency=EUR&order=newest_first&size_ids[]=207&page={}'
 # Inicializar variáveis
 page_number = 0
 usernames_and_urls = []
